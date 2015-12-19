@@ -8,7 +8,9 @@ public class GreetingBuilderTest {
 
 	@Test
 	public void testGetGreeting() {
-		fail("Not yet implemented");
+		GreetingBuilder sut = new GreetingBuilder();
+		String greeting = sut.getGreeting();
+		assertEquals("Hello", greeting);
 	}
 
 }
